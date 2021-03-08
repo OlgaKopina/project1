@@ -100,13 +100,13 @@ padding: 0 0 0 91px;
 
 .offers__item {
    width: 360px;
-   min-height: 260px;
    color:white;
     margin: 0 0 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
+    flex-direction: column;
 }
 .offers__item--woman {
     background-image: url(../img/Layer\ 43.jpg);
@@ -126,6 +126,10 @@ padding: 0 0 0 91px;
     background-image: url(../img/accesories.jpg);
 }
 
+.offers__item--header {
+    margin-bottom: 5px;
+}
+
 .offers__item--text {
     text-transform: uppercase;
     color: var(--dark-ping);
@@ -134,7 +138,7 @@ padding: 0 0 0 91px;
     height: 260px;
 }
 
-.fetured__title--header {
+.fetured__title__header {
     font-family: Lato;
     font-size: 30px;
     font-style: normal;
@@ -148,7 +152,7 @@ padding: 0 0 0 91px;
     margin-bottom: 48px;
 }
 
-.fetured__title--text {
+.fetured__title__text {
     font-family: Lato;
     font-size: 14px;
     font-style: normal;
@@ -164,7 +168,7 @@ padding: 0 0 0 91px;
     flex-wrap: wrap;
 }
 
-.fetured__list--items {
+.fetured__list__items {
     display: flex;
     flex-direction: column;
     width: 360px;
@@ -172,7 +176,7 @@ padding: 0 0 0 91px;
     background-color: var(--light-gray);
 }
 
-.fetured__title--name {
+.fetured__list__items--name {
     font-family: Lato;
     font-size: 13px;
     font-style: normal;
@@ -181,11 +185,11 @@ padding: 0 0 0 91px;
     margin-bottom: 13px;
 }
 
-.fetured__title--image {
+.fetured__list__items--image {
     margin-bottom: 25px;
 }
 
-.fetured__title--price {
+.fetured__list__items--price {
     margin-top: 18px;
     margin-bottom: 20px;
     font-family: Lato;
@@ -194,4 +198,14 @@ padding: 0 0 0 91px;
     font-weight: 400;
     line-height: 19px;
     color: var(--dark-ping);
+}
+
+.fetured__list__items--text {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: var(--gray);
 }
