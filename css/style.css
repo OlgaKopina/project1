@@ -6,6 +6,7 @@
     --light-gray: #F8F8F8;
     --white: #FFFFFF;
     --black: #222224;
+    --light-black: #E1E1E1;
 }
 
 .body {
@@ -268,4 +269,113 @@ padding: 0 0 0 91px;
     color: var(--white);
     margin-bottom: 104px;
     text-align: center;
+}
+
+.subscription {
+background-image: url(../img/photo\ subscribe.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.subscription__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 87px;
+    padding-bottom: 126px;
+}
+
+.subscription__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription__title--foto {
+    margin-bottom: 30px;
+    align-self: center;
+    background-color: var(--light-gray);
+}
+
+.subscription__title--text {
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    width: 359px;
+    height: 99px;
+    text-align: center;
+}
+
+.subscription__form {
+    display: flex;
+    flex-direction: column;
+}                 
+
+.subscription__form--text {
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+.subscription-form--subtext {
+    font-weight: 400;
+    display: block;
+}
+
+.subscription__form--botton {
+    display: flex;
+    margin: auto;
+    height: 49px;
+}
+
+.form-email {
+display: block;
+width: 256px;
+background-color: var(--light-black);
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+padding-top: 7px;
+padding-right: 6px;
+padding-left: 22px;
+border: none;
+}
+
+.form-subscribe {
+display: block;
+width: 100px;
+text-align: center;
+background-color: var(--dark-ping);
+color: var(--white);
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+padding-top: 7px;
+padding-right: 7px;
+padding-bottom: 6px;
+padding-left: 8px;
+border: none;
+}
+
+.footer-contact {
+    background-color: var(--dark-blue);
+}
+
+.footer-contact__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 79px;
+}
+
+.footer-contact__list--text {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--white);
 }
